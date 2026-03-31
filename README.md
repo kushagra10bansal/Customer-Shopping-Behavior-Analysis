@@ -13,23 +13,6 @@ The dataset represents a **realistic retail consumer behavior scenario**, captur
 
 This project mirrors the exact workflow used in **real-world data analyst roles**, from understanding a business problem to delivering insights to management.
 
----
-## 📰 Featured Article
-
-Check out the full write-up on Medium:  
-[How I Built a Full End-to-End Customer Shopping Behavior Analytics System Using Python, SQL & Power BI](https://medium.com/@codegnerdev/how-i-built-a-full-end-to-end-customer-shopping-behavior-analytics-system-using-python-sql-and-9fc3775adfb3)
-
-This article walks through:
-
-- 🎯 The business problem of understanding retail customer behavior  
-- 🐍 How the data was cleaned and transformed using Python (pandas)  
-- 🗄️ How SQL and PostgreSQL were used to analyze transactions and customer segments  
-- 📊 Building a Power BI dashboard to visualize key metrics and seasonal trends  
-- 💡 Strategic insights for business leaders, especially around major sales events like Black November and festive shopping periods  
-- 📚 How this project ties into a real-world data analyst workflow and can be leveraged by recruiters and business owners alike
-
----
-
 # 🏢 **Business Problem Statement**
 
 A leading retail company has experienced shifting customer behavior across demographics, product categories, and sales channels. The management team wants to understand the main drivers behind customer purchasing decisions to improve:
@@ -87,20 +70,6 @@ End-to-end **Retail Analytics** project analyzing customer shopping behavior usi
 
 
 ```
-Raw CSV File
-      ↓
-Python (Data Cleaning, EDA, Transformation)
-      ↓
-PostgreSQL Database (Modeled Tables + SQL Analysis)
-      ↓
-Power BI (Dashboard, KPIs, Visual Insights)
-      ↓
-Project Documentation (Report + Presentation)
-      ↓
-GitHub (Portfolio Delivery)
-```
----
-
 # 🐍 **1. Data Preparation & Modeling (Python)**
 
 The data preparation was conducted using **Jupyter Notebook**, focusing on cleaning, profiling, and preparing the data for SQL analysis.
@@ -109,16 +78,11 @@ The data preparation was conducted using **Jupyter Notebook**, focusing on clean
 
 ### 📌 **1. Load Data**
 
-![Load Data](images/load_data.PNG)
-
 * Read the CSV using pandas
 * Display initial records
 * Validate structure and column types
 
 ### 📌 **2. Inspect Structure & Summary**
-
-![Inspect Structure](images/data_structure.PNG)
-![Summary](images/data_summary.PNG)
 
 * Check data types
 * Identify categorical vs numerical columns
@@ -126,32 +90,20 @@ The data preparation was conducted using **Jupyter Notebook**, focusing on clean
 
 ### 📌 **3. Null Value Analysis & Handling**
 
-![Null Values](images/null_values.PNG)
-
 * Identify missing values
 * Drop irrelevant or sparse columns
 * Impute where appropriate
-* Remove promo_code column if inconsistent (see `promo_code_used_dropped.PNG`)
 
 ### 📌 **4. Feature Engineering**
 
-* Create **age group** categories
-  ![Age Groups](images/age_group.PNG)
-  
+* Create **age group** categories  
 * Compute **purchase_frequency_days**
-  ![Purchase_Frequency_days](images/purchase_frequency_days.PNG)
-  
 * Standardize review ratings
-![Review Ratings](images/review_rating.PNG)
-  
+
 ### 📌 **5. Data Export to PostgreSQL**
 
-* Use SQLAlchemy for connection
-  ![SQLAlchemy](images/sqlalchemy.PNG)
-  
+* Use SQLAlchemy for connection 
 * Push transformed data to PostgreSQL
-  ![PostgreSQL](images/PostgreSQL_connect.PNG)
-
 ---
 
 # 🗄️ **2. Data Analysis (SQL)**
@@ -188,8 +140,6 @@ After loading the cleaned dataset into PostgreSQL, several analytical SQL querie
 # 📊 **3. Visualization & Insights (Power BI Dashboard)**
 
 The Power BI dashboard consolidates all insights into an interactive stakeholder-ready report.
-
-![Power BI dashboard](images/Customer_behavior_dashboard.PNG)
 
 ### **Dashboard Sections**
 ```
@@ -286,29 +236,3 @@ Open Jupyter Notebook:
 jupyter notebook
 ```
 
----
-
-# 🤝 **Contributing**
-
-Feel free to fork the repo, submit issues, or propose enhancements.
-
----
-
-## 📬 Contact
-
-For collaboration, project walkthroughs, or professional inquiries, feel free to reach out:
-
-**Fred Kibutu**
-
-- **GitHub:** [github.com/KibutuJr](https://github.com/KibutuJr)
-- **LinkedIn:** [linkedin.com/in/fred-kibutu](https://www.linkedin.com/in/fred-kibutu/)
-- **Portfolio:** [kibutujr.vercel.app](https://kibutujr.vercel.app/)
-- **Email:** [kibutujr@gmail.com](mailto:kibutujr@gmail.com)
-
----
-
-# ⭐ **If you found this helpful, star the repository!**
-
-This supports the project and keeps it growing.
-
----

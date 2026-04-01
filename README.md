@@ -1,4 +1,4 @@
-# **Customer Shopping Behavior – End-to-End Data Analytics Project**
+# **Customer Shopping behaviour – End-to-End Data Analytics Project**
 
 ## 📊 **Project Overview**
 
@@ -9,13 +9,13 @@ This project demonstrates a **full end-to-end data analytics workflow** using:
 * **Power BI** for data visualization and reporting
 * **GitHub** for version control and portfolio presentation
 
-The dataset represents a **realistic retail consumer behavior scenario**, capturing information on customers, demographics, purchasing patterns, preferred shopping channels, discounts, review ratings, seasons, and payment types.
+The dataset represents a **realistic retail consumer behaviour scenario**, capturing information on customers, demographics, purchasing patterns, preferred shopping channels, discounts, review ratings, seasons, and payment types.
 
 This project mirrors the exact workflow used in **real-world data analyst roles**, from understanding a business problem to delivering insights to management.
 
 # 🏢 **Business Problem Statement**
 
-A leading retail company has experienced shifting customer behavior across demographics, product categories, and sales channels. The management team wants to understand the main drivers behind customer purchasing decisions to improve:
+A leading retail company has experienced shifting customer behaviour across demographics, product categories, and sales channels. The management team wants to understand the main drivers behind customer purchasing decisions to improve:
 
 * Sales performance
 * Customer engagement
@@ -28,7 +28,7 @@ A leading retail company has experienced shifting customer behavior across demog
 
 ### The analysis focuses on:
 
-* What factors influence purchase behavior?
+* What factors influence purchase behaviour?
 * How demographics affect spending patterns
 * Which customer segments are most valuable
 * How reviews, discounts, and seasons impact sales
@@ -64,9 +64,9 @@ Published all project components in a clean, well-organized structure for profes
 
 # 🧱 **Project Architecture (End-to-End Workflow)**
 
-End-to-end **Retail Analytics** project analyzing customer shopping behavior using **Python, PostgreSQL/SQL, and Power BI**. Covers data cleaning, feature engineering, transactional analysis, customer segmentation, and interactive dashboards to uncover actionable retail insights.
+End-to-end **Retail Analytics** project analyzing customer shopping behaviour using **Python, PostgreSQL/SQL, and Power BI**. Covers data cleaning, feature engineering, transactional analysis, customer segmentation, and interactive dashboards to uncover actionable retail insights.
 
-![Project Architecture](images/Retail_Consumer_Behavior_Analytics_Platform.png)
+![Project Architecture](images/Retail_Consumer_behaviour_Analytics_Platform.png)
 
 
 ```
@@ -119,7 +119,7 @@ After loading the cleaned dataset into PostgreSQL, several analytical SQL querie
 | `customerid_purchaseamount_2.sql`   | Customer spending by ID              | `customerid_purchaseamount_2.PNG`   |
 | `itempurchased_reviewrating_3.sql`  | Relationship between items & ratings | `itempurchased_reviewrating_3.PNG`  |
 | `shipping_type_4.sql`               | Shipping method performance          | `shipping_type_4.PNG`               |
-| `subscription_status_5.sql`         | Subscription behavior analysis       | `subscription_status_5.PNG`         |
+| `subscription_status_5.sql`         | Subscription behaviour analysis       | `subscription_status_5.PNG`         |
 | `itemspurchased_discountrate_6.sql` | Discount–purchase relationship       | `itemspurchased_discountrate_6.PNG` |
 | `customer_segment_7.sql`            | Customer segmentation                | `customer_segment_7.PNG`            |
 | `item_rank_8.sql`                   | Product ranking                      | `item_rank_8.PNG`                   |
@@ -149,7 +149,7 @@ The Power BI dashboard consolidates all insights into an interactive stakeholder
  **Shopping Channel Performance (Online vs Offline)**
  **Impact of Reviews & Ratings**
  **Seasonality & Monthly Purchasing Patterns**
- **Subscription Trends & Renewal Behavior**
+ **Subscription Trends & Renewal behaviour**
  **Discount Sensitivity & Promotional Effects**
  **Top Performing Products & Rankings**
 ```
@@ -183,7 +183,7 @@ The project includes:
 * Executive-level storytelling
 
 Check out the full Power Point Presentation Here:  
-[Power Point Project Presentation](https://gamma.app/docs/Customer-Shopping-Behavior-Analysis-lz0q4126l8up4l5)
+[Power Point Project Presentation](https://gamma.app/docs/Customer-Shopping-behaviour-Analysis-lz0q4126l8up4l5)
 
 ---
 
